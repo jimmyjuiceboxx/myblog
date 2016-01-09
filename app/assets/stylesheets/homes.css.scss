@@ -1,3 +1,110 @@
 // Place all the styles related to the homes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+
+body#background {
+	background: url('http://www.androidguys.com/wp-content/uploads/2015/10/pic02.jpg') no-repeat  100% 100% fixed; 
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+
+}
+.jumbotron {
+	background-color: rgba(0,0,0,0.6);
+	padding: 20px;
+	
+	margin: -10px auto;        
+	text-align: center;
+	border-radius: 10px;
+	}
+
+.profile{
+	background-color: rgba(0,0,0,0.6);
+	text-align: center;
+ 	padding-left: 17px;
+ 	padding-top:  17px;
+	margin: -4px auto;
+	border-radius: 10px;
+}
+
+
+	
+
+	         	
+h2 {
+  	color: white;
+  	font-family: 'helvetica neue', helvetica;
+  	font-weight: 100;
+  	font-size: 60px;
+  	margin: 0px;
+  	padding-top: 10px;
+
+  	}
+h3 {
+	color: white;
+	font-family: 'helvetica neue', helvetica;
+  	font-weight: 100;
+	margin: 0px;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+h4 {
+        color: white;
+	font-family: 'helvetica neue', helvetica;
+  	font-weight: 20;
+	font-size: 16px;
+	}
+.name{
+	color: #999;
+	font-family:'Maven Pro', sans-serif;
+	font-size: 18px;
+	padding-top: 1px;
+}
+
+.prophoto{
+	margin-left:10px;
+}
+
+.photo{
+	margin: 10%;
+
+}
+
+.navbar-inverse{
+	background-color: rgba(0,0,0,0.8);
+
+}
+.dropdown {
+    color: #999;
+    font-family:'Maven Pro', sans-serif;
+    font-size: 18px;
+    padding-top:4px;
+}
+.dropdown-menu{
+   background-color: rgba(0,0,0,0.8);
+   border-width: 3px;
+   border-color: rgba(0,0,0,1);
+  &>li>a{
+    color: #999;
+    font-size: 16px;
+    &:hover{
+      color: #fff;
+      background-color: rgba(0,0,0,1);
+    }
+  }
+}      
+
+.nav-pills > li > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	text-align:left;
+	font-family: 'Maven Pro', sans-serif;
+	padding-left:14px;
+    color:white;
+    background-color:rgba(0,0,0,0.0);
+    &:hover{
+    	color:white;
+    	background-color: rgba(0,0,0,0.1);
+    	}    }
